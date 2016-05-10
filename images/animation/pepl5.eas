@@ -1,0 +1,21 @@
+﻿{"frames": [
+
+{
+	"filename": "Символ 11 образец 10000",
+	"frame": {"x":2,"y":2,"w":70,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":82},
+	"sourceSize": {"w":70,"h":82}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.0.0.110",
+	"Target": "Edge Animate",
+	"Target Version": "4.0",
+	"image": "pepl5.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":128},
+	"scale": "1"
+}
+}

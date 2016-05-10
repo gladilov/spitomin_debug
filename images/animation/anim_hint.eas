@@ -1,0 +1,1125 @@
+﻿{"frames": [
+
+{
+	"filename": "Символ 50000",
+	"frame": {"x":2,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50001",
+	"frame": {"x":71,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50002",
+	"frame": {"x":140,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50003",
+	"frame": {"x":209,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50004",
+	"frame": {"x":278,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50005",
+	"frame": {"x":347,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50006",
+	"frame": {"x":416,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50007",
+	"frame": {"x":485,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50008",
+	"frame": {"x":554,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50009",
+	"frame": {"x":623,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50010",
+	"frame": {"x":692,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50011",
+	"frame": {"x":761,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50012",
+	"frame": {"x":830,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50013",
+	"frame": {"x":899,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50014",
+	"frame": {"x":2,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50015",
+	"frame": {"x":71,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50016",
+	"frame": {"x":140,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50017",
+	"frame": {"x":209,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50018",
+	"frame": {"x":278,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50019",
+	"frame": {"x":347,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50020",
+	"frame": {"x":416,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50021",
+	"frame": {"x":485,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50022",
+	"frame": {"x":554,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50023",
+	"frame": {"x":623,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50024",
+	"frame": {"x":692,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50025",
+	"frame": {"x":761,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50026",
+	"frame": {"x":830,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50027",
+	"frame": {"x":899,"y":66,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50028",
+	"frame": {"x":2,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50029",
+	"frame": {"x":71,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50030",
+	"frame": {"x":140,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50031",
+	"frame": {"x":209,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50032",
+	"frame": {"x":278,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50033",
+	"frame": {"x":347,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50034",
+	"frame": {"x":416,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50035",
+	"frame": {"x":485,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50036",
+	"frame": {"x":554,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50037",
+	"frame": {"x":623,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50038",
+	"frame": {"x":692,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50039",
+	"frame": {"x":761,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50040",
+	"frame": {"x":830,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50041",
+	"frame": {"x":899,"y":130,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50042",
+	"frame": {"x":2,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50043",
+	"frame": {"x":71,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50044",
+	"frame": {"x":140,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50045",
+	"frame": {"x":209,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50046",
+	"frame": {"x":278,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50047",
+	"frame": {"x":347,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50048",
+	"frame": {"x":416,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50049",
+	"frame": {"x":485,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50050",
+	"frame": {"x":554,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50051",
+	"frame": {"x":623,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50052",
+	"frame": {"x":692,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50053",
+	"frame": {"x":761,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50054",
+	"frame": {"x":830,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50055",
+	"frame": {"x":899,"y":194,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50056",
+	"frame": {"x":2,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50057",
+	"frame": {"x":71,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50058",
+	"frame": {"x":140,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50059",
+	"frame": {"x":209,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50060",
+	"frame": {"x":278,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50061",
+	"frame": {"x":347,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50062",
+	"frame": {"x":416,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50063",
+	"frame": {"x":2,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50064",
+	"frame": {"x":485,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50065",
+	"frame": {"x":554,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50066",
+	"frame": {"x":623,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50067",
+	"frame": {"x":692,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50068",
+	"frame": {"x":761,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50069",
+	"frame": {"x":830,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50070",
+	"frame": {"x":899,"y":258,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50071",
+	"frame": {"x":2,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50072",
+	"frame": {"x":71,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50073",
+	"frame": {"x":140,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50074",
+	"frame": {"x":209,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50075",
+	"frame": {"x":278,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50076",
+	"frame": {"x":347,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50077",
+	"frame": {"x":416,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50078",
+	"frame": {"x":485,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50079",
+	"frame": {"x":554,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50080",
+	"frame": {"x":623,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50081",
+	"frame": {"x":692,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50082",
+	"frame": {"x":761,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50083",
+	"frame": {"x":830,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50084",
+	"frame": {"x":899,"y":322,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50085",
+	"frame": {"x":2,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50086",
+	"frame": {"x":71,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50087",
+	"frame": {"x":140,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50088",
+	"frame": {"x":209,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50089",
+	"frame": {"x":278,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50090",
+	"frame": {"x":347,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50091",
+	"frame": {"x":416,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50092",
+	"frame": {"x":485,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50093",
+	"frame": {"x":554,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50094",
+	"frame": {"x":623,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50095",
+	"frame": {"x":692,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50096",
+	"frame": {"x":761,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50097",
+	"frame": {"x":830,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50098",
+	"frame": {"x":899,"y":386,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50099",
+	"frame": {"x":2,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50100",
+	"frame": {"x":71,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50101",
+	"frame": {"x":140,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50102",
+	"frame": {"x":209,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50103",
+	"frame": {"x":278,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50104",
+	"frame": {"x":347,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50105",
+	"frame": {"x":416,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50106",
+	"frame": {"x":485,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50107",
+	"frame": {"x":554,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50108",
+	"frame": {"x":623,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50109",
+	"frame": {"x":692,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50110",
+	"frame": {"x":761,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50111",
+	"frame": {"x":830,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50112",
+	"frame": {"x":899,"y":450,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50113",
+	"frame": {"x":2,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50114",
+	"frame": {"x":71,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50115",
+	"frame": {"x":140,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50116",
+	"frame": {"x":209,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50117",
+	"frame": {"x":278,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50118",
+	"frame": {"x":347,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50119",
+	"frame": {"x":416,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50120",
+	"frame": {"x":485,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50121",
+	"frame": {"x":554,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50122",
+	"frame": {"x":623,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50123",
+	"frame": {"x":692,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50124",
+	"frame": {"x":761,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50125",
+	"frame": {"x":830,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50126",
+	"frame": {"x":899,"y":514,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50127",
+	"frame": {"x":2,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50128",
+	"frame": {"x":71,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50129",
+	"frame": {"x":140,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50130",
+	"frame": {"x":209,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50131",
+	"frame": {"x":278,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50132",
+	"frame": {"x":347,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50133",
+	"frame": {"x":416,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50134",
+	"frame": {"x":485,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50135",
+	"frame": {"x":554,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50136",
+	"frame": {"x":623,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50137",
+	"frame": {"x":692,"y":578,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}
+,{
+	"filename": "Символ 50138",
+	"frame": {"x":2,"y":2,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":62},
+	"sourceSize": {"w":67,"h":62}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "14.0.0.110",
+	"Target": "Edge Animate",
+	"Target Version": "4.0",
+	"image": "anim_hint.png",
+	"format": "RGB8",
+	"size": {"w":1024,"h":649},
+	"scale": "1"
+}
+}

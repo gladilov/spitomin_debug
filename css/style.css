@@ -1,0 +1,71 @@
+a {
+  color: #005098;
+}
+a:visited {
+  color: #005098;
+}
+a:hover {
+  color: #0a8bff;
+  text-decoration: underline;
+}
+
+.color-label {
+  border-radius: 14px; 
+  border: 4px solid rgb(255, 255, 255); 
+  -webkit-box-shadow: rgba(0, 0, 0, 0.65098) 0px 2px 3px 0px; 
+  box-shadow: rgba(0, 0, 0, 0.65098) 0px 2px 3px 0px; 
+  background-color: rgb(0, 84, 160); 
+  background-size: 100% 100%;
+}
+
+.color-label:hover {
+  background-color: rgba(0,59,114,1.00); 
+}
+
+.color-label:active {
+  /*padding-top: 16px;*/
+  background-color: rgb(0, 40, 110);
+  border: 4px solid rgb(200, 200, 200);
+}
+
+.error {
+  border-color: #F40000 !important;
+}
+
+#table-result-items td {
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(192,239,206,1.00);
+  font-family: open-sans-condensed, sans-serif;
+  font-size: 20px;
+  color: #005098;
+}
+#table-result-items td:first-child {
+  /*border-top: 1px solid rgba(192,239,206,1.00);*/
+}
+#table-result-items td.num {
+  width: 40px;
+  text-align: center;
+}
+#table-result-items td.fio {
+  width: 350px;
+}
+#table-result-items td.lpu {
+  width: 300px;
+}
+#table-result-items td.city {
+  width: 290px;
+}
+/*#table-result-items td.mail {
+  width: 185px;
+}
+#table-result-items td.phone {
+  width: 145px;
+}*/
+#table-result-items td.empty {
+  width: 100%;
+  padding: 40px 0 0;
+  font-size: 22px;
+  text-align: center;
+  color: #999;
+  border: none;
+}
