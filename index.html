@@ -43,5 +43,28 @@ AdobeEdge.loadComposition('index', 'EDGE-3961720', {
 <body style="margin:0;padding:0;background:#E8F4EA;">
 	<div id="Stage" class="EDGE-3961720">
 	</div>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript">
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        console.log("console.log works well");
+        
+        navigator.notification.alert(
+            'Dialog works well!',  // message
+            null,         // callback
+            'Test dialog',            // title
+            'Done'                  // buttonName
+        );
+        
+        navigator.notification.alert(
+            'Connection: ' + navigator.connection.type,  // message
+            null,         // callback
+            'Test connection',            // title
+            'Done'                  // buttonName
+        );
+        
+        
+    }
+  </script>
 </body>
 </html>
