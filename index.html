@@ -4,7 +4,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="user-scalable=no" />
-	<title>Spitomin_Game</title>
+	<title>Spitomin debug</title>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript">
+    document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {
+        navigator.notification.alert(
+            'Connection: ' + navigator.connection.type,
+            null,
+            'Test connection',
+            'Done'
+        );
+    }
+  </script>
 <!--Adobe Edge Runtime-->
     <script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
     <style>
@@ -43,28 +55,5 @@ AdobeEdge.loadComposition('index', 'EDGE-3961720', {
 <body style="margin:0;padding:0;background:#E8F4EA;">
 	<div id="Stage" class="EDGE-3961720">
 	</div>
-  <script type="text/javascript" src="cordova.js"></script>
-  <script type="text/javascript">
-    document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-        console.log("console.log works well");
-        
-        navigator.notification.alert(
-            'Dialog works well!',  // message
-            null,         // callback
-            'Test dialog',            // title
-            'Done'                  // buttonName
-        );
-        
-        navigator.notification.alert(
-            'Connection: ' + navigator.connection.type,  // message
-            null,         // callback
-            'Test connection',            // title
-            'Done'                  // buttonName
-        );
-        
-        
-    }
-  </script>
 </body>
 </html>

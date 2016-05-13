@@ -329,19 +329,40 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          
                xmlhttp.onreadystatechange = function() {
                   if (this.readyState === 4) {
-                     if (this.status === 200) {
-         					if (this.responseText && $.trim(this.responseText)) {
-         						var responseText = JSON.parse(this.responseText);
-         						
-         						if (responseText.success && responseText.success === true) {
-         							storage.set('representativeCode', representativeCode);
-         							sym.getComposition().getStage().stop("intro");
-         						}
-         						else showDialog("representativeCodeError");
-         					}
-         					else showDialog("representativeCodeError");
-                     }
-                     else showDialog("representativeCodeError");
+                    navigator.notification.alert(
+                        'Запрос на сервер успешно завершен (readyState = 4)',
+                        null,
+                        'Test request to server',
+                        'Done'
+                    );
+                    
+                    if (this.status === 200) {
+                      navigator.notification.alert(
+                          'HTTP-код ответа сервера: 200 (status = 4)',
+                          null,
+                          'Test request to server 2',
+                          'Done'
+                      );
+                    
+                      if (this.responseText && $.trim(this.responseText)) {
+                        var responseText = JSON.parse(this.responseText);
+                        
+                        if (responseText.success && responseText.success === true) {
+                          navigator.notification.alert(
+                              'Ответ сервера на отправку данных: true (responseText.success = true)',
+                              null,
+                              'Test request to server 3',
+                              'Done'
+                          );
+                          
+                          storage.set('representativeCode', representativeCode);
+                          sym.getComposition().getStage().stop("intro");
+                        }
+                        else showDialog("representativeCodeError");
+                      }
+                      else showDialog("representativeCodeError");
+                    }
+                    else showDialog("representativeCodeError");
                   }
                }
          
@@ -460,6 +481,17 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          Symbol.bindElementAction(compId, "Button_Result_Submit", "Rectangle", "click", function(sym, e) {
          	// Если в таблице есть данные
          	if (storage.isSet('users')) {
+            
+/* DEBUG */
+navigator.notification.alert(
+    'Connection: ' + navigator.connection.type,  // message
+    null,         // callback
+    'Test connection',            // title
+    'Done'                  // buttonName
+);
+            
+            
+            
          		var users = storage.get('users'),
          			 representativeCode = storage.get('representativeCode'),
          			 xmlhttp = new XMLHttpRequest(),
