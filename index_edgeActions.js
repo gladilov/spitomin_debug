@@ -330,7 +330,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
                xmlhttp.onreadystatechange = function() {
                   if (this.readyState === 4) {
                     navigator.notification.alert(
-                        'Запрос на сервер успешно завершен (readyState = 4)',
+                        'Запрос на сервер успешно завершен (readyState = 4).',
                         null,
                         'Test request to server',
                         'Done'
@@ -338,7 +338,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
                     
                     if (this.status === 200) {
                       navigator.notification.alert(
-                          'HTTP-код ответа сервера: 200 (status = 4)',
+                          'HTTP-код ответа сервера: 200 (status = 200).',
                           null,
                           'Test request to server 2',
                           'Done'
@@ -349,7 +349,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
                         
                         if (responseText.success && responseText.success === true) {
                           navigator.notification.alert(
-                              'Ответ сервера на отправку данных: true (responseText.success = true)',
+                              'Ответ сервера на отправку данных: true (responseText.success = true).',
                               null,
                               'Test request to server 3',
                               'Done'
@@ -429,6 +429,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          });
          
          Symbol.bindElementAction(compId, "Button_Intro_Result", "Rectangle", "click", function(sym, e) {
+            navigator.notification.alert(
+                'Connection: ' + navigator.connection.type,
+                null,
+                'Test connection',
+                'Done'
+            );
+           
          	storage = $.localStorage;
          	sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").empty();
          	sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").css({'padding':'10px', 'box-sizing':'border-box', '-webkit-box-sizing':'border-box', '-moz-box-sizing':'border-box'});
@@ -503,14 +510,14 @@ navigator.notification.alert(
                xmlhttp.onreadystatechange = function() {
                   if (this.readyState === 4) {
                     navigator.notification.alert(
-                        'Запрос на сервер успешно завершен (readyState = 4)',
+                        'Запрос на сервер успешно завершен (readyState = 4).',
                         null,
                         'Test request to server',
                         'Done'
                     );
                      if (this.status === 200) {
                       navigator.notification.alert(
-                          'HTTP-код ответа сервера: 200 (status = 4)',
+                          'HTTP-код ответа сервера: 200 (status = 200).',
                           null,
                           'Test request to server 2',
                           'Done'
@@ -521,7 +528,7 @@ navigator.notification.alert(
          
          						if (responseText.success && responseText.success === true) {
                       navigator.notification.alert(
-                          'Ответ сервера на отправку данных: true (responseText.success = true)',
+                          'Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.',
                           null,
                           'Test request to server 3',
                           'Done'
@@ -539,7 +546,7 @@ navigator.notification.alert(
          							sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").css({'padding':'10px', 'box-sizing':'border-box', '-webkit-box-sizing':'border-box', '-moz-box-sizing':'border-box'});
          							sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").append(tableItems);
          
-         							storage.remove('users');
+         							//storage.remove('users');
          						}
          						else showDialog("tableResultSubmitFailure");
          					}
