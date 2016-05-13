@@ -502,11 +502,31 @@ navigator.notification.alert(
          
                xmlhttp.onreadystatechange = function() {
                   if (this.readyState === 4) {
+                    navigator.notification.alert(
+                        'Запрос на сервер успешно завершен (readyState = 4)',
+                        null,
+                        'Test request to server',
+                        'Done'
+                    );
                      if (this.status === 200) {
+                      navigator.notification.alert(
+                          'HTTP-код ответа сервера: 200 (status = 4)',
+                          null,
+                          'Test request to server 2',
+                          'Done'
+                      );
+                      
          					if (this.responseText && $.trim(this.responseText)) {
          						var responseText = JSON.parse(this.responseText);
          
          						if (responseText.success && responseText.success === true) {
+                      navigator.notification.alert(
+                          'Ответ сервера на отправку данных: true (responseText.success = true)',
+                          null,
+                          'Test request to server 3',
+                          'Done'
+                      );
+                          
          							showDialog("tableResultSubmitSuccessful");
          							sym.getComposition().getStage().getSymbol("Button_Result_Submit").stop('disable');
          							sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").empty();
