@@ -5,16 +5,21 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="user-scalable=no" />
 	<title>Spitomin debug</title>
-  <script type="text/javascript" src="cordova.js"></script>
+  <!--<script type="text/javascript" src="cordova.js"></script>-->
   <script type="text/javascript">
-    document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-        navigator.notification.alert(
-            'Connection: ' + navigator.connection.type,
-            null,
-            'Test connection',
-            'Done'
-        );
+    var msie = window.navigator.userAgent.indexOf('MSIE ') !== -1;
+    var app = document.URL.indexOf('http://') === -1 && document.URL.indexOf('https://') === -1;
+  
+    if (app) {
+      document.addEventListener("deviceready", onDeviceReady, false);
+      function onDeviceReady() {
+          navigator.notification.alert(
+              'Connection: ' + navigator.connection.type,
+              null,
+              'Test connection',
+              'Done'
+          );
+      }
     }
   </script>
 <!--Adobe Edge Runtime-->

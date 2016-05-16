@@ -329,36 +329,77 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          
                xmlhttp.onreadystatechange = function() {
                   if (this.readyState === 4) {
-                    navigator.notification.alert(
-                        'Запрос на сервер успешно завершен (readyState = 4).',
-                        null,
-                        'Test request to server',
-                        'Done'
-                    );
-                    
-                    if (this.status === 200) {
+                    /* DEBUG */
+                    if (app) {
                       navigator.notification.alert(
-                          'HTTP-код ответа сервера: 200 (status = 200).',
+                          'Запрос на сервер успешно завершен (readyState = 4).',
                           null,
-                          'Test request to server 2',
+                          'Test request to server',
                           'Done'
                       );
+                    }
+                    else if (msie) {
+                      alert('Запрос на сервер успешно завершен (readyState = 4).');
+                    }
+                    
+                    if (this.status === 200) {
+                      /* DEBUG */
+                      if (app) {
+                        navigator.notification.alert(
+                            'HTTP-код ответа сервера: 200 (status = 200).',
+                            null,
+                            'Test request to server 2',
+                            'Done'
+                        );
+                      }
+                      else if (msie) {
+                        alert('HTTP-код ответа сервера: 200 (status = 200).');
+                      }
                     
                       if (this.responseText && $.trim(this.responseText)) {
                         var responseText = JSON.parse(this.responseText);
                         
                         if (responseText.success && responseText.success === true) {
-                          navigator.notification.alert(
-                              'Ответ сервера на отправку данных: true (responseText.success = true).',
-                              null,
-                              'Test request to server 3',
-                              'Done'
-                          );
+                          /* DEBUG */
+                          if (app) {
+                            navigator.notification.alert(
+                                'Ответ сервера на отправку данных: true (responseText.success = true).',
+                                null,
+                                'Test request to server 3',
+                                'Done'
+                            );
+                          }
+                          else if (msie) {
+                            alert('Ответ сервера на отправку данных: true (responseText.success = true).');
+                            console.log(responseText);
+                          }
                           
                           storage.set('representativeCode', representativeCode);
                           sym.getComposition().getStage().stop("intro");
                         }
-                        else showDialog("representativeCodeError");
+                        else {
+                          if (app) {
+                            navigator.notification.alert(
+                                'Ответ сервера на отправку данных: false (responseText.success = false).',
+                                null,
+                                'Test request to server 3',
+                                'Done'
+                            );
+                            navigator.notification.alert(
+                                responseText.errors,
+                                null,
+                                'Test request to server 4 (errors)',
+                                'Done'
+                            );
+                          }
+                          else if (msie) {
+                            alert('Ответ сервера на отправку данных: false (responseText.success = false).');
+                            alert(responseText.errors);
+                            console.log(responseText);
+                          }
+                          
+                          showDialog("representativeCodeError");
+                        }
                       }
                       else showDialog("representativeCodeError");
                     }
@@ -429,12 +470,15 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          });
          
          Symbol.bindElementAction(compId, "Button_Intro_Result", "Rectangle", "click", function(sym, e) {
-            navigator.notification.alert(
-                'Connection: ' + navigator.connection.type,
-                null,
-                'Test connection',
-                'Done'
-            );
+            /* DEBUG */
+            if (app) {
+              navigator.notification.alert(
+                  'Connection: ' + navigator.connection.type,
+                  null,
+                  'Test connection',
+                  'Done'
+              );
+            }
            
          	storage = $.localStorage;
          	sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").empty();
@@ -489,16 +533,17 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          	// Если в таблице есть данные
          	if (storage.isSet('users')) {
             
-/* DEBUG */
-navigator.notification.alert(
-    'Connection: ' + navigator.connection.type,  // message
-    null,         // callback
-    'Test connection',            // title
-    'Done'                  // buttonName
-);
+            /* DEBUG */
+            if (app) {
+              navigator.notification.alert(
+                  'Connection: ' + navigator.connection.type,
+                  null,
+                  'Test connection',
+                  'Done'
+              );
+            }
             
-            
-            
+
          		var users = storage.get('users'),
          			 representativeCode = storage.get('representativeCode'),
          			 xmlhttp = new XMLHttpRequest(),
@@ -509,30 +554,51 @@ navigator.notification.alert(
          
                xmlhttp.onreadystatechange = function() {
                   if (this.readyState === 4) {
-                    navigator.notification.alert(
-                        'Запрос на сервер успешно завершен (readyState = 4).',
-                        null,
-                        'Test request to server',
-                        'Done'
-                    );
-                     if (this.status === 200) {
+                    /* DEBUG */
+                    if (app) {
                       navigator.notification.alert(
-                          'HTTP-код ответа сервера: 200 (status = 200).',
+                          'Запрос на сервер успешно завершен (readyState = 4).',
                           null,
-                          'Test request to server 2',
+                          'Test request to server',
                           'Done'
                       );
+                    }
+                    else if (msie) {
+                      alert('Запрос на сервер успешно завершен (readyState = 4).');
+                    }
+                    
+                    
+                     if (this.status === 200) {
+                      /* DEBUG */
+                      if (app) {
+                        navigator.notification.alert(
+                            'HTTP-код ответа сервера: 200 (status = 200).',
+                            null,
+                            'Test request to server 2',
+                            'Done'
+                        );
+                      }
+                      else if (msie) {
+                        alert('HTTP-код ответа сервера: 200 (status = 200).');
+                      }
                       
          					if (this.responseText && $.trim(this.responseText)) {
          						var responseText = JSON.parse(this.responseText);
          
          						if (responseText.success && responseText.success === true) {
-                      navigator.notification.alert(
-                          'Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.',
-                          null,
-                          'Test request to server 3',
-                          'Done'
-                      );
+                      /* DEBUG */
+                      if (app) {
+                        navigator.notification.alert(
+                            'Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.',
+                            null,
+                            'Test request to server 3',
+                            'Done'
+                        );
+                      }
+                      else if (msie) {
+                        alert('Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.');
+                        console.log(responseText);
+                      }
                           
          							showDialog("tableResultSubmitSuccessful");
          							sym.getComposition().getStage().getSymbol("Button_Result_Submit").stop('disable');
@@ -548,7 +614,29 @@ navigator.notification.alert(
          
          							//storage.remove('users');
          						}
-         						else showDialog("tableResultSubmitFailure");
+         						else {
+                      if (app) {
+                        navigator.notification.alert(
+                            'Ответ сервера на отправку данных: false (responseText.success = false).',
+                            null,
+                            'Test request to server 3',
+                            'Done'
+                        );
+                        navigator.notification.alert(
+                            responseText.errors,
+                            null,
+                            'Test request to server 4 (errors)',
+                            'Done'
+                        );
+                      }
+                      else if (msie) {
+                        alert('Ответ сервера на отправку данных: false (responseText.success = false).');
+                        alert(responseText.errors);
+                        console.log(responseText);
+                      }
+                      
+                      showDialog("tableResultSubmitFailure");
+                    }
          					}
          					else showDialog("tableResultSubmitFailure");
                      }
