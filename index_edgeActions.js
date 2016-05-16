@@ -378,6 +378,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
                           sym.getComposition().getStage().stop("intro");
                         }
                         else {
+                          /* DEBUG */
                           if (app) {
                             navigator.notification.alert(
                                 'Ответ сервера на отправку данных: false (responseText.success = false).',
@@ -401,9 +402,39 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
                           showDialog("representativeCodeError");
                         }
                       }
-                      else showDialog("representativeCodeError");
+                      else {
+                        /* DEBUG */
+                        if (app) {
+                          navigator.notification.alert(
+                              'Сервер не прислал ответ на отправку данных (responseText = false).',
+                              null,
+                              'Test request to server 3 (errors)',
+                              'Done'
+                          );
+                        }
+                        else if (msie) {
+                          alert('Сервер не прислал ответ на отправку данных (responseText = false).');
+                        }
+                        
+                        showDialog("representativeCodeError");
+                      }
                     }
-                    else showDialog("representativeCodeError");
+                    else {
+                      /* DEBUG */
+                      if (app) {
+                        navigator.notification.alert(
+                            'HTTP-код ответа сервера: ' + this.status + ' (status = ' + this.status + ').',
+                            null,
+                            'Test request to server 2 (errors)',
+                            'Done'
+                        );
+                      }
+                      else if (msie) {
+                        alert('HTTP-код ответа сервера: ' + this.status + ' (status = ' + this.status + ').');
+                      }
+                      
+                      showDialog("representativeCodeError");
+                    }
                   }
                }
          
@@ -582,65 +613,96 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
                         alert('HTTP-код ответа сервера: 200 (status = 200).');
                       }
                       
-         					if (this.responseText && $.trim(this.responseText)) {
-         						var responseText = JSON.parse(this.responseText);
-         
-         						if (responseText.success && responseText.success === true) {
-                      /* DEBUG */
-                      if (app) {
-                        navigator.notification.alert(
-                            'Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.',
-                            null,
-                            'Test request to server 3',
-                            'Done'
-                        );
-                      }
-                      else if (msie) {
-                        alert('Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.');
-                        console.log(responseText);
-                      }
+                      if (this.responseText && $.trim(this.responseText)) {
+                        var responseText = JSON.parse(this.responseText);
+             
+                        if (responseText.success && responseText.success === true) {
+                          /* DEBUG */
+                          if (app) {
+                            navigator.notification.alert(
+                                'Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.',
+                                null,
+                                'Test request to server 3',
+                                'Done'
+                            );
+                          }
+                          else if (msie) {
+                            alert('Ответ сервера на отправку данных: true (responseText.success = true). Данные приняты сервером и записаны в базу данных.');
+                            console.log(responseText);
+                          }
+                              
+                          showDialog("tableResultSubmitSuccessful");
+                          sym.getComposition().getStage().getSymbol("Button_Result_Submit").stop('disable');
+                          sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").empty();
+                          // Add empty field to Table Result
+                          var tableItems = $('<table />').attr({'cellpadding':0, 'cellspacing':0, 'width':'100%', 'id':'table-result-items'}),
+                             tableItemsTr = $('<tr />'),
+                             tableItemsTdEmpty = $('<td />').addClass('empty').html('Нет данных для отображения').appendTo(tableItemsTr);
+             
+                          tableItemsTr.appendTo(tableItems);
+                          sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").css({'padding':'10px', 'box-sizing':'border-box', '-webkit-box-sizing':'border-box', '-moz-box-sizing':'border-box'});
+                          sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").append(tableItems);
+             
+                          //storage.remove('users');
+                        }
+                        else {
+                          /* DEBUG */
+                          if (app) {
+                            navigator.notification.alert(
+                                'Ответ сервера на отправку данных: false (responseText.success = false).',
+                                null,
+                                'Test request to server 3',
+                                'Done'
+                            );
+                            navigator.notification.alert(
+                                responseText.errors,
+                                null,
+                                'Test request to server 4 (errors)',
+                                'Done'
+                            );
+                          }
+                          else if (msie) {
+                            alert('Ответ сервера на отправку данных: false (responseText.success = false).');
+                            alert(responseText.errors);
+                            console.log(responseText);
+                          }
                           
-         							showDialog("tableResultSubmitSuccessful");
-         							sym.getComposition().getStage().getSymbol("Button_Result_Submit").stop('disable');
-         							sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").empty();
-         							// Add empty field to Table Result
-         							var tableItems = $('<table />').attr({'cellpadding':0, 'cellspacing':0, 'width':'100%', 'id':'table-result-items'}),
-         								 tableItemsTr = $('<tr />'),
-         								 tableItemsTdEmpty = $('<td />').addClass('empty').html('Нет данных для отображения').appendTo(tableItemsTr);
-         
-         							tableItemsTr.appendTo(tableItems);
-         							sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").css({'padding':'10px', 'box-sizing':'border-box', '-webkit-box-sizing':'border-box', '-moz-box-sizing':'border-box'});
-         							sym.getComposition().getStage().getSymbol("Table_Result").$("Table_Result_Items").append(tableItems);
-         
-         							//storage.remove('users');
-         						}
-         						else {
-                      if (app) {
-                        navigator.notification.alert(
-                            'Ответ сервера на отправку данных: false (responseText.success = false).',
-                            null,
-                            'Test request to server 3',
-                            'Done'
-                        );
-                        navigator.notification.alert(
-                            responseText.errors,
-                            null,
-                            'Test request to server 4 (errors)',
-                            'Done'
-                        );
+                          showDialog("tableResultSubmitFailure");
+                        }
                       }
-                      else if (msie) {
-                        alert('Ответ сервера на отправку данных: false (responseText.success = false).');
-                        alert(responseText.errors);
-                        console.log(responseText);
+                      else {
+                        /* DEBUG */
+                        if (app) {
+                          navigator.notification.alert(
+                              'Сервер не прислал ответ на отправку данных (responseText = false).',
+                              null,
+                              'Test request to server 3 (errors)',
+                              'Done'
+                          );
+                        }
+                        else if (msie) {
+                          alert('Сервер не прислал ответ на отправку данных (responseText = false).');
+                        }
+                        
+                        showDialog("tableResultSubmitFailure");
                       }
-                      
-                      showDialog("tableResultSubmitFailure");
-                    }
-         					}
-         					else showDialog("tableResultSubmitFailure");
                      }
-                     else showDialog("tableResultSubmitFailure");
+                     else {
+                        /* DEBUG */
+                        if (app) {
+                          navigator.notification.alert(
+                              'HTTP-код ответа сервера: ' + this.status + ' (status = ' + this.status + ').',
+                              null,
+                              'Test request to server 2 (errors)',
+                              'Done'
+                          );
+                        }
+                        else if (msie) {
+                          alert('HTTP-код ответа сервера: ' + this.status + ' (status = ' + this.status + ').');
+                        }
+                       
+                       showDialog("tableResultSubmitFailure");
+                     }
                   }
                }
          
