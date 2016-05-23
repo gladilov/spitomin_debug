@@ -848,10 +848,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          	else $(this).removeClass('error');
          });
          
-         $(document).on("online", function(){ alert("You're online / on") });
-         $(document).on("offline", function(){ alert("You're offline / on") });
-         document.addEventListener("online", function(){ alert("You're online") }, false);
-         document.addEventListener("offline", function(){ alert("You're offline") }, false);
+         //$(document).on("online", function(){ alert("You're online / on") });
+         //$(document).on("offline", function(){ alert("You're offline / on") });
+         //document.addEventListener("online", function(){ alert("You're online") }, false);
+         //document.addEventListener("offline", function(){ alert("You're offline") }, false);
 
       });
       //Edge binding end
