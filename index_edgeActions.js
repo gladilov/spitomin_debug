@@ -299,15 +299,15 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
            }
          }
          else { // Type: WEB
-          if (storage.isSet('representativeCodeCurrent')) {
-            if (storage.get('representativeCodeCurrent') != representativeCode && storage.isSet('users')) {
+          if (storage.isSet('representativeCode')) {
+            if (storage.get('representativeCode') != representativeCode && storage.isSet('users')) {
               storage.remove('users');
             }
             
-            storage.remove('representativeCodeCurrent');
+            storage.remove('representativeCode');
           }
           
-          storage.set('representativeCodeCurrent', representativeCode);
+          storage.set('representativeCode', representativeCode);
          }
          
          
